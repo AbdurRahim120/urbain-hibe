@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* navber style  */
+nav {
+  background-color: #9376e0;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  color: white;
+}
+.nav-image {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.nav-img {
+  width: 70px;
+}
+.nav-image p {
+  font-size: 26px;
+  font-weight: 600;
+}
+.color {
+  color: #e893cf;
+}
+.nav-menus {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  font-size: 20px;
+}
+.nav-menus a {
+  text-decoration: none;
+  color: white;
+}
+.login-btn {
+  padding: 10px 20px;
+  background-color: #e893cf;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* banner style  */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1300px;
+
+  background-color: #e6e9eb;
+  margin-top: 20px;
+}
+.banner-info {
+  width: 50%;
+  text-align: center;
+}
+.banner-info h1{
+    background: linear-gradient(to bottom,#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.banner-info h4{
+    font-size: 25px;
+}
+
+.banner-image {
+  width: 50%;
+}
+.banner-image img {
+  width: 100%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.banner-btn {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px solid #9376e0;
+  margin-right: 20px;
+  border-radius: 5px;
+}

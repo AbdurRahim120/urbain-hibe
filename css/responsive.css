@@ -1,0 +1,22 @@
+@media screen and (max-width: 400px) {
+  .nav-container,
+  .nav-menus,
+  .banner-container {
+    flex-direction: column;
+  }
+  .nav-menus {
+    width: 100%;
+    gap: 10px;
+  }
+  .nav-menus .login-btn {
+    margin-bottom: 10px;
+    width: 85%;
+  }
+  .banner-image {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .banner-btn {
+    margin-bottom: 5px;
+  }
+}
